@@ -1,0 +1,24 @@
+{
+  "name": "spicemark",
+  "version": "0.0.1",
+  "description": "Syntax for documenting recipes",
+  "main": "src/index.js",
+  "scripts": {
+    "read": "node src/index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManeeshChiba/spicemark.git"
+  },
+  "author": "Maneesh Chiba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManeeshChiba/spicemark/issues"
+  },
+  "homepage": "https://github.com/ManeeshChiba/spicemark#readme",
+  "dependencies": {
+    "@types/node": "^22.10.2",
+    "marked": "^15.0.4"
+  }
+}
