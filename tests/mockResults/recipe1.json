@@ -1,0 +1,103 @@
+{
+    "frontMatter": {
+        "title": "Chicken, sausage & mushroom stew",
+        "description": "In the time the rice cooks you can have this outrageously delicious, delicate little number ready.",
+        "source": "https://www.jamieoliver.com/recipes/chicken/chicken-sausage-mushroom-stew",
+        "tags": "cookbook club, stew, chicken, mushroom, sausage, dinner, lunch, 30 minute meals",
+        "nutrition": {
+            "portionWeight": "580.1 g",
+            "protein": "43.4 g",
+            "saturatedFat": "12.4 g",
+            "sugars": "8.3 g",
+            "carbs": "90.6 g",
+            "fat": "36.6 g",
+            "fibre": "4.6 g",
+            "salt": "1.6 g",
+            "calories": "842 calories",
+            "forKids": false
+        }
+    },
+    "html": [
+        {
+            "tag": "H1",
+            "content": [
+                {
+                    "content": "Chicken, sausage & mushroom stew"
+                }
+            ]
+        },
+        {
+            "tag": "H2",
+            "content": [
+                {
+                    "content": "Method"
+                }
+            ]
+        },
+        {
+            "tag": "OL",
+            "content": [
+                {
+                    "tag": "LI",
+                    "content": [
+                        {
+                            "tag": "P",
+                            "content": [
+                                {
+                                    "content": "Put the {%i rice | 150g %} into a {%c pan %} with {%1m 300ml %} of {%1 boiling water %} or and a {%2m small pinch %} of {%2 sea salt %}, cover and cook on a medium-high heat for {%t 12 minutes %}, or until all the liquid has been absorbed."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "tag": "LI",
+                    "content": [
+                        {
+                            "tag": "P",
+                            "content": [
+                                {
+                                    "content": "Squeeze the {%i sausage-meat | 1 sausage %} out of the skin, breaking it into little balls, then place in a {%c frying pan %} on a medium-high heat and fry for {%t 3 minutes %}."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "tag": "LI",
+                    "content": [
+                        {
+                            "tag": "P",
+                            "content": [
+                                {
+                                    "content": "Tear in the {%i mushrooms | 160g | mixed %}, peel, very finely slice and add the {%i onion | 1 %}, strip in the {%i thyme | 4 sprigs %}, add {%3m ½ a tablespoon %} of {%3 olive oil %} and fry for {%t 5 minutes %}, or until softened and lightly golden, stirring regularly."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "tag": "LI",
+                    "content": [
+                        {
+                            "tag": "P",
+                            "content": [
+                                {
+                                    "content": "Stir in the {%i mustard | 2 teaspoons | English %}, {%i cream | 100ml | single cream%} and {%4m 150ml %} of {%4? water %} or {%4? reserved stock %}, followed by the {%i chicken | 150g | shredded poached chicken %} and {%i spinach | 100g | baby %}. Reduce to a simmer for {%t 5 minutes %}, then season the stew to perfection with {%i salt %} and {%i black pepper %}."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tag": "P",
+            "content": [
+                {
+                    "content": "Serve with the {%i rice | 150g | basmati %} and a {%5m pinch %} of {%5 cayenne pepper %}, to taste."
+                }
+            ]
+        }
+    ]
+}

@@ -2,6 +2,7 @@ import fm from "front-matter";
 import HTMLParser from "node-html-parser";
 import { Marked } from "marked";
 import { FRONT_MATTER_MATCHER, loadFile, writeFile } from "./utils.mjs";
+import { makeAttribute } from "./makeAttributes.mjs";
 
 function extractAttributes(fileContent) {
     return fm(fileContent).attributes;
@@ -22,7 +23,7 @@ function getFragment(childNodes) {
             }
             return {
                 tag: tagName,
-                content: text,
+                content: makeAttribute(text),
             };
         })
         .filter((x) => x);
