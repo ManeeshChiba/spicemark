@@ -118,3 +118,41 @@ Stir in the {%i mustard | 2 teaspoons | English %}
 This kind of markup should yield an ingredient item of:
 
 - Mustard _2 teaspoons_ (English)
+
+## Metadata
+
+Spicemark supports optional front-matter formatted as YML. You must define the front-matter for your recipe at the beginning of your file and place any key value pairs between three dash symbols `---`.
+
+Example:
+
+```
+---
+title: Chicken, sausage & mushroom stew
+description: In the time the rice cooks you can have this outrageously delicious, delicate little number ready.
+source: https://www.jamieoliver.com/recipes/chicken/chicken-sausage-mushroom-stew
+tags: cookbook club, stew, chicken, mushroom, sausage, dinner, lunch, 30 minute meals
+nutrition:
+    portionWeight: 580.1 g
+    protein: 43.4 g
+    saturatedFat: 12.4 g
+    sugars: 8.3 g
+    carbs: 90.6 g
+    fat: 36.6 g
+    fibre: 4.6 g
+    salt: 1.6 g
+    calories: 842 calories
+    forKids: false
+notes: |
+    I can place as many notes as I like here as free form text,
+    with new lines retained.
+---
+...
+```
+
+_Notes of reserved metadata terms to go here_
+
+### References
+
+- [Cooklang](https://github.com/cooklang/spec)
+- [Recipe ML](https://en.wikipedia.org/wiki/RecipeML)
+- [Recipe JSON Schema](https://schema.org/Recipe)
