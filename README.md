@@ -4,7 +4,7 @@ Syntax for documenting recipes
 
 ## What is spicemark?
 
-Spicemark is a superset of the [Markdown](https://www.markdownguide.org/) language with specific decorators which the allow processors to extract useful recipe information.
+Spicemark is a superset of the [Markdown](https://www.markdownguide.org/) language with specific decorators which allow processors to extract useful recipe information.
 
 Spicemark uses a recipe method which has been "spiced up" by decorators to identify key elements so that a processor can generate an ingredient and quantity list, equipment list and process times.
 
@@ -32,7 +32,7 @@ All decorators follow the same pattern:
 
 ### Ingredients
 
-Indicate ingredients in your recipes by beginning the decorator with the a lowercase `i`. The value after the pipe is the measurement.
+Indicate ingredients in your recipes by beginning the decorator with a lowercase `i`. The value after the pipe is the measurement.
 
 ```
 {%i carrots | 2 %}
@@ -40,7 +40,7 @@ Indicate ingredients in your recipes by beginning the decorator with the a lower
 
 ### Cookware
 
-Indicate cookware by beginning the decorator with the a lowercase `c`.
+Indicate cookware by beginning the decorator with a lowercase `c`.
 
 ```
 {%c frying pan %}
@@ -65,7 +65,7 @@ Indicate time ranges by placing a pipe character `|` between the time ranges.
 
 ## Modifiers & Associations
 
-The aim of spicemark, is to make recipe ingest and export easy. Many recipes written in the English language may separate items. These are the purpose of modifiers and associators. They allow you to describe recipes without making major modifications to your methods.
+Spicemark recipe ingest and export should be easy. Many recipes written in the English language may separate items. These are the purpose of modifiers and associators. They allow you to describe recipes without making major modifications to your methods.
 
 ## Associations
 
@@ -98,10 +98,10 @@ Here there are 2 associators and 1 substitution.
 `{%m1?1 300ml %}` and `{%1?1 water %}` are related.
 
 - `m1` indicates this block contains the measurement for ingredient 1 (water)
-- `?1` indicates that ingredient is part of option group 1
+- `?1` indicates that the ingredient is part of option group 1
   `%m2?1 100ml %}` and `{%i2?1 stock %}` are related.
 - `m2` indicates this block contains the measurement for ingredient 2 (stock)
-- `?1` indicates that ingredient is part of option group 1
+- `?1` indicates that the ingredient is part of option group 1
 
 This kind of markup should yield an ingredient item of:
 
@@ -109,7 +109,7 @@ This kind of markup should yield an ingredient item of:
 
 ### Ingredient Meta
 
-Some ingredients might need additional description in a ingredient list, but could be referred to by another name in the recipe method. You can provide this context in your mark up by adding an additional pipe the ingredient decorator followed by your description.
+Some ingredients might need additional description in an ingredient list, but could be referred to by another name in the recipe method. You can provide this context in your markup by adding an additional pipe to the ingredient decorator followed by your description.
 
 ```
 Stir in the {%i mustard | 2 teaspoons | English %}
